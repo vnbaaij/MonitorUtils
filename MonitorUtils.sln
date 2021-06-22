@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29701.11
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorUtils", "MonitorUtils\MonitorUtils.csproj", "{EDA55F14-6718-4F80-B45F-21B7EF7D21A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitorUtils", "MonitorUtils\MonitorUtils.csproj", "{EDA55F14-6718-4F80-B45F-21B7EF7D21A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{378D933A-CB7B-48EB-B2FE-F72692B4D52A}"
+	ProjectSection(SolutionItems) = preProject
+		MonitorUtils.2.0.0.nupkg = MonitorUtils.2.0.0.nupkg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
